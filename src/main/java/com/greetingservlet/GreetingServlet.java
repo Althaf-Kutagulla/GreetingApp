@@ -18,7 +18,7 @@ public class GreetingServlet extends HttpServlet {
 			PrintWriter out = res.getWriter();
 			System.out.println(name.length());
 			if(name.length() != 0 ) {
-				out.println("Hello "+name+", have a nice day!");
+				out.println("Hello "+name+", have a good day!");
 			}else {
 				out.println("Enter correct input");
 				
